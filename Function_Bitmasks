@@ -1,21 +1,27 @@
-bool Knowbit(ll n,int i)
-{
-    return (n>>i)&1;
-}
-ll Setbit(ll n,int i)
-{
-    return n|(1<<i);
-}
-ll Resetbit(ll n,int i)
-{
-    return n&(~(1<<i));
-}
-ll flip(ll n,int i)
-{
-    return n^(1<<i);
-}
-bool isPowerOfTwo(int n)
-{
-    if(n==0)return 0;
-    return !(n&(n-1));
-}
+@@ -1,32 +0,0 @@
+# Prerequisites
+*.d
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers
+*.gch
+*.pch
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+# Fortran module files
+*.mod
+*.smod
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+# Executables
+*.exe
+*.out
+*.app
